@@ -13,7 +13,7 @@ Permite guardar, visualizar y mantener tus credenciales organizadas localmente m
 - 🖥️ **Interfaz moderna**: desarrollada con JavaFX, ofrece una experiencia limpia y fácil de usar.  
 
 ---
-
+```
 ## 📁 Estructura del proyecto
 SecurePass/
 ├── src/
@@ -30,7 +30,7 @@ SecurePass/
 │ └── com/example/securepass/
 │ └── main-view.fxml
 └── README.md
-
+```
 ---
 
 ## 🧠 Cómo funciona

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.securepass.controller.MainController"
+            style="-fx-background-color: #1e1e1e;">
+
+    <!-- Encabezado -->
+    <top>
+        <HBox spacing="10" style="-fx-background-color: #2d2d30; -fx-padding: 10;">
+            <Label text="SecurePass"
+                   style="-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold;"/>
+        </HBox>
+    </top>
+
+    <!-- Tabla -->
+    <center>
+        <TableView fx:id="tablePasswords" prefHeight="400" style="-fx-background-color: #252526;">
+            <columns>
+                <TableColumn fx:id="colService" text="Servicio" prefWidth="150"/>
+                <TableColumn fx:id="colUsername" text="Usuario" prefWidth="150"/>
+                <TableColumn fx:id="colPassword" text="Contraseña" prefWidth="150"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <!-- Zona inferior (inputs + botón) -->
+    <bottom>
+        <HBox spacing="10" alignment="CENTER" style="-fx-background-color: #2d2d30; -fx-padding: 15;">
+            <TextField fx:id="txtService" promptText="Servicio" styleClass="input-field"/>
+            <TextField fx:id="txtUsername" promptText="Usuario" styleClass="input-field"/>
+            <PasswordField fx:id="txtPassword" promptText="Contraseña" styleClass="input-field"/>
+            <Button text="Agregar" fx:id="addButton" onAction="#onAddPassword" styleClass="primary-button"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>
+

@@ -77,7 +77,7 @@ Controla la interfaz JavaFX, maneja eventos del botón **Agregar** y actualiza l
 1. Clona el repositorio:
    ```bash
    https://github.com/manghz/securepass.git
-
+```
    🧑‍💻 Autor
 
 Desarrollado por Miguel Ángel González Hernández

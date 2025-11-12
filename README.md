@@ -13,8 +13,9 @@ Permite guardar, visualizar y mantener tus credenciales organizadas localmente m
 - 🖥️ **Interfaz moderna**: desarrollada con JavaFX, ofrece una experiencia limpia y fácil de usar.  
 
 ---
-```
+
 ## 📁 Estructura del proyecto
+```
 SecurePass/
 ├── src/
 │ ├── com/example/securepass/

@@ -36,13 +36,14 @@ SecurePass/
 
 ## 🧠 Cómo funciona
 
-1. Al iniciar, la aplicación carga las contraseñas guardadas desde `passwords.dat`.  
-2. Puedes añadir nuevos registros indicando:
+1. Al iniciar, aparece una primera pestaña en la que debemos introducir la contraseña maestra (1234) 
+2. la aplicación carga las contraseñas guardadas desde `passwords.dat`.  
+3. Puedes añadir nuevos registros indicando:
    - Servicio (por ejemplo: *Gmail*)  
    - Usuario  
    - Contraseña  
-3. Al pulsar **Agregar**, el registro aparece en la tabla y se guarda automáticamente en el archivo.  
-4. Al cerrar y volver a abrir la app, los datos se recargan automáticamente.  
+4. Al pulsar **Agregar**, el registro aparece en la tabla y se guarda automáticamente en el archivo.  
+5. Al cerrar y volver a abrir la app, los datos se recargan automáticamente.  
 
 ---
 
